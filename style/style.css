@@ -1,0 +1,97 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    margin:0 auto;
+}
+#main{
+    margin:20px auto;
+    width: 960px;
+}
+.commentBox{
+    height: auto;
+}
+.commentBox .title{
+    height: 30px;
+    margin: 20px 0;
+    color: #33CC66;
+    line-height: 30px;
+    font-weight: normal;
+}
+.commentBox .commentList{
+    width: 860px;
+    margin: 0 20px;
+}
+
+.commentBox .commentList .comment{
+    margin:10px 0;
+    font-size:14px;
+    line-height: 30px;
+    border-bottom: dashed 1px #CCCCFF;
+    border-radius: 3px;
+}
+.commentBox .commentList .comment .title{
+    height: 30px;
+    color: #333;
+}
+.commentBox .commentList .comment .title .author{
+    font-weight: bolder;
+    padding: 0 10px;
+    float: left;
+}
+.commentBox .commentList .comment .title .time{
+    padding: 0 10px;
+    font-size:12px;
+    float: right;
+}
+.commentBox .commentList .comment .content{
+    width: 760px;
+    margin:0 20px;
+}
+.commentBox .commentList .comment .content .text{
+    font-weight: normal;
+    padding: 20px 10px;
+}
+
+.commentBox .commentForm{
+    width: 900px;
+    height: 150px;
+}
+.commentBox .commentForm .nameBox{
+    height: 30px;
+    margin: 10px 0;
+}
+.commentBox .commentForm .nameBox .name{
+    height: 30px;
+    line-height: 30px;
+    border:solid 1px #33CC66;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+.commentBox .commentForm .textBox{
+    height: 90px;
+    width: 870px;
+}
+.commentBox .commentForm .textBox .content{
+    border:solid 1px #33CC66;
+    height: 80px;
+    width: 870px;
+    line-height: 20px;
+    border:solid 1px #33CC66;
+    border-radius: 3px;
+    padding: 0 15px;
+}
+.commentBox .commentForm .btnBox{
+    margin:0 auto;
+    width: 60px;
+    height:30px;
+}
+.commentBox .commentForm .btnBox .submitBtn{
+    background: #33CC66;
+    border: solid 1px #33CC66;
+    border-radius: 5px;
+    width: 60px;
+    height:30px;
+    text-align: center;
+}

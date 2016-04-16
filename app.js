@@ -3,9 +3,10 @@
  */
 import React from "react";
 import ReactDom from "react-dom";
-import Hello from "./hello";
+import CommentBox from "./comment/commentBox";
+import Style from "./style/style"
 
 ReactDom.render(
-    <Hello name="World" />,
+    <CommentBox url="./api/comment.php" />,
     document.getElementById('main')
 );
